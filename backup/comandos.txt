@@ -7,3 +7,5 @@ python manage.py makemigrations
 python manage.py migrate 
 
 admin.site.site_header = 'Django' -> urls.py
+
+python manage.py collectstatic
